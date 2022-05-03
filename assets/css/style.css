@@ -1,0 +1,68 @@
+html, body {
+    font-family: Verdana, Tahoma, sans-serif;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+}
+
+.searchContainer {
+    border: 2px solid black
+}
+
+#currentCity{
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+#forecast {
+    padding: 2px;
+    margin: 2px;
+}
+
+.hide {
+    display: none;
+}
+
+.btn-info{
+    margin: 2.5px;
+}
+
+.low-uvi {
+    background-color: green;
+    padding: 4px;
+    border-radius: 25%;
+}
+
+.moderate-uvi {
+    background-color: yellow;
+    padding: 4px;
+    border-radius: 25%;
+}
+
+.high-uvi {
+    background-color: orange;
+    padding: 4px;
+    border-radius: 25%;
+}
+
+.very-high-uvi {
+    background-color: red;
+    padding: 2px;
+    border-radius: 25%;
+}
+
+.extreme-uvi {
+    background-color: purple;
+    padding: 2px;
+    border-radius: 25%;
+}
+
+.forecast-square {
+    border: 2px solid black;
+}
